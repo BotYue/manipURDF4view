@@ -15,8 +15,8 @@ The same robot set is rendered in both environments at **1024 × 1024** resoluti
 The directory hierarchy below `mujoco/images/` and `pybullet/images/` is identical, so corresponding robot renders can be matched by relative path.
 
 The details of the work are introduced at:
-* IROS Poster:
-* AAAI symposium paper
+- [ ] [IROS 2026 Late-Breaking Poster](sim2sim_poster.pdf)
+- [ ] [AAAI 2026 Fall Symposium Paper](sim2sim_paper.pdf)
 
 ### Source composition
 
