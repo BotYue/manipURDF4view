@@ -18,21 +18,8 @@ The details of the work are introduced at:
 - [ ] [IROS 2026 Late-Breaking Poster](sim2sim_poster.pdf)
 - [ ] [AAAI 2026 Fall Symposium Paper](sim2sim_paper.pdf)
 
-### Source composition
 
-| Source | Count |
-|---|---:|
-| ROS-Industrial | 86 |
-| MATLAB Robotics | 15 |
-| Robotics Toolbox | 13 |
-| Drake | 7 |
-| Others | 10 |
-| **Total** | **131** |
-
-
-## Gallery
-
-# Combined Manipulator Render Gallery
+## Combined Manipulator Render Gallery
 
 
 Each robot is shown using the isometric render. Click either image for the full-size file.  
