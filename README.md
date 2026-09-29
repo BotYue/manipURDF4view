@@ -14,6 +14,10 @@ The same robot set is rendered in both environments at **1024 × 1024** resoluti
 
 The directory hierarchy below `mujoco/images/` and `pybullet/images/` is identical, so corresponding robot renders can be matched by relative path.
 
+The details of the work are introduced at:
+* IROS Poster:
+* AAAI symposium paper
+
 ### Source composition
 
 | Source | Count |
@@ -169,10 +173,4 @@ Robot names in the first column follow the naming used in the original **URDF Fi
 | [LWA 4P](https://github.com/Daniella1/urdf_files_dataset/blob/main/urdf_files/random/xacro_generated/schunk_modular_robotics/schunk_description/urdf/schunk_lwa4p.urdf) | Others | SCHUNK | <a href="mujoco/images/random/xacro_generated/schunk_modular_robotics/schunk_description/schunk_lwa4p/iso.png"><img src="mujoco/images/random/xacro_generated/schunk_modular_robotics/schunk_description/schunk_lwa4p/iso.png" alt="schunk_lwa4p MuJoCo" width="300"></a><br>[front](mujoco/images/random/xacro_generated/schunk_modular_robotics/schunk_description/schunk_lwa4p/front.png) · [side](mujoco/images/random/xacro_generated/schunk_modular_robotics/schunk_description/schunk_lwa4p/side.png) · [top](mujoco/images/random/xacro_generated/schunk_modular_robotics/schunk_description/schunk_lwa4p/top.png) | <a href="pybullet/images/random/xacro_generated/schunk_modular_robotics/schunk_description/schunk_lwa4p/iso.png"><img src="pybullet/images/random/xacro_generated/schunk_modular_robotics/schunk_description/schunk_lwa4p/iso.png" alt="schunk_lwa4p PyBullet" width="300"></a><br>[front](pybullet/images/random/xacro_generated/schunk_modular_robotics/schunk_description/schunk_lwa4p/front.png) · [side](pybullet/images/random/xacro_generated/schunk_modular_robotics/schunk_description/schunk_lwa4p/side.png) · [top](pybullet/images/random/xacro_generated/schunk_modular_robotics/schunk_description/schunk_lwa4p/top.png) |
 | [LWA 4P — extended](https://github.com/Daniella1/urdf_files_dataset/blob/main/urdf_files/random/xacro_generated/schunk_modular_robotics/schunk_description/urdf/schunk_lwa4p_extended.urdf) | Others | SCHUNK | <a href="mujoco/images/random/xacro_generated/schunk_modular_robotics/schunk_description/schunk_lwa4p_extended/iso.png"><img src="mujoco/images/random/xacro_generated/schunk_modular_robotics/schunk_description/schunk_lwa4p_extended/iso.png" alt="schunk_lwa4p_extended MuJoCo" width="300"></a><br>[front](mujoco/images/random/xacro_generated/schunk_modular_robotics/schunk_description/schunk_lwa4p_extended/front.png) · [side](mujoco/images/random/xacro_generated/schunk_modular_robotics/schunk_description/schunk_lwa4p_extended/side.png) · [top](mujoco/images/random/xacro_generated/schunk_modular_robotics/schunk_description/schunk_lwa4p_extended/top.png) | <a href="pybullet/images/random/xacro_generated/schunk_modular_robotics/schunk_description/schunk_lwa4p_extended/iso.png"><img src="pybullet/images/random/xacro_generated/schunk_modular_robotics/schunk_description/schunk_lwa4p_extended/iso.png" alt="schunk_lwa4p_extended PyBullet" width="300"></a><br>[front](pybullet/images/random/xacro_generated/schunk_modular_robotics/schunk_description/schunk_lwa4p_extended/front.png) · [side](pybullet/images/random/xacro_generated/schunk_modular_robotics/schunk_description/schunk_lwa4p_extended/side.png) · [top](pybullet/images/random/xacro_generated/schunk_modular_robotics/schunk_description/schunk_lwa4p_extended/top.png) |
 
-## Notes
-
-- Only paired fixed-base robotic manipulators are retained.
-- Robot hands/grippers, mobile robots, humanoids/legged robots, and explicit dual-arm examples are excluded.
-- Each retained robot is available in both renderer folders.
-- The two renderer folders should preserve the same relative `images/` directory structure.
 
