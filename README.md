@@ -3,7 +3,7 @@
 This repository contains paired canonical-view renderings of **131 fixed-base manipulator URDF bundles** in two simulation environments:
 
 - **MuJoCo**
-- **PyBullet TinyRenderer**
+- **PyBullet**
 
 The same robot set is rendered in both environments at **1024 × 1024** resolution using four canonical viewpoints:
 
